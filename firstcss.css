@@ -1,0 +1,220 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: hsl(235, 18%, 26%);
+    text-transform: capitalize;
+
+}
+ 
+
+ 
+ 
+.typing{
+         
+     font-size: 16px;
+       
+     
+   
+}
+.span{
+    text-transform: lowercase;
+    color:tomato;
+    font-size: small;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-left: 49%;
+    visibility: hidden;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 30px;
+} 
+ 
+.img{
+    width: 20px;
+    margin: 0%;
+    margin-right: 15px;
+     
+}
+.btn{
+     width: 100%;
+     padding: 3%;
+      color:white;
+      background-color:    hsl(235, 18%, 26%);
+      margin-top: 2%;
+     
+     
+}
+.btn:hover{
+    color:white;
+    background-image:linear-gradient(to right,rgb(220, 47, 125),tomato  );
+    box-shadow: 2% 2% 2% 2% tomato ;
+}
+input{
+    height: 50px;
+    margin-top: 2%;
+}
+.elsecon{
+    background-color: white;
+    width:max-content;
+    padding: auto;
+    border-radius: 5%;
+    margin-top: 4%;
+    height: 630px;
+    
+}
+.img1{
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    display: inline-block;
+    margin-top: 2%;
+    
+}
+@keyframes fortype{
+    from{margin-left:-1700px}
+    to{
+        margin-left: 5%;
+    }
+
+}
+@keyframes forimge{
+    from{margin-top: -1700px;}
+    to{margin-top:0%}
+}
+.typing{
+    padding-left: 5%;
+    padding-top: 10%;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+h1{
+    font-weight: bold;
+}
+form{
+    margin-top: 7%;
+    box-sizing: border-box;
+}
+label{
+    margin-top: 2%;
+    font-size: small;
+    font-weight: bold;
+}
+li{
+    margin-top: 10px;
+}
+p{
+margin-top: 30px;
+}
+input{
+    border-radius:10%;
+}
+.logincon{
+    width: 23%;
+     padding-left: 3%;
+    padding-top: 3%;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 10%;
+    height: 410px;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: none;
+}
+.svg{
+    width: 20%;
+    height: 40px;
+    
+    box-sizing: border-box;
+}
+.btnlogin{
+    color:white;
+     background-color: hsl(235, 18%, 26%);;
+    margin-top: 10%;
+    text-transform: capitalize;
+     
+    box-sizing: border-box;
+}
+.thlogin{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10%;
+     
+    box-sizing: border-box;
+}
+.plogin{
+   font-size: 13px;
+   margin-top: 10%;
+   margin-left: 0%;
+   text-align: start;
+    
+   box-sizing: border-box;
+
+}
+b{
+    display: inline ;
+    margin: 0%;
+}
+.img2in{
+    display: none;
+}
+
+
+
+@media (max-width:375px){
+    .img1{
+        display: none;
+        
+    }
+    .img2in{
+        display: inline-block;
+        width: 100%;
+    }
+    body{
+        background-color: white;
+        font-weight: 400;
+        padding: 0%;
+        margin: 0%;
+        font-size: 16px;
+    }
+    div{
+        border-radius: 0%;
+        padding: 0%;
+        margin: 0%;
+        height: auto;
+    }
+    .elsecon{
+        margin: 0%;
+        height: auto;
+    }
+    h1{
+        margin: 0px;
+    }
+    .typing{
+        padding-left: 3%;
+        padding-top:  2%;
+        box-sizing: border-box;
+        font-weight: 400;
+        
+    }
+    .logincon{
+         width: 90%;
+         height: auto;
+        align-content: space-between;
+        box-sizing: border-box;
+        margin-left: 5%;
+        margin-top: 25%;
+        
+    }
+    .btnlogin{
+        color:white;
+        background-color: hsl(235, 18%, 26%);;
+        align-items: end;
+        text-transform: capitalize;
+        margin-top: 90%;
+        box-sizing: border-box;
+    }
+}
